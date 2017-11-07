@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Amy is Great</title>
+
+    <!-- fullpage css -->
+    <link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- bootstrap js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+
+    <!-- fullPage -->
+    <script type="text/javascript" src="scrolloverflow.min.js"></script>
+
+    <script type="text/javascript" src="jquery.fullPage.js"></script>
+    <!-- https://cdnjs.com/libraries/fullPage.js -->
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+</head>
+<body>
+    <style>
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ #header {
+    background-color: #33799F;
+    padding: 4px;
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index: 9;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ h1, h2, h3, h4, h5 {
+    font-family: 'Poiret One', cursive;
+    display: inline-block;
+    margin: 10px;
+ }
+
+ a {
+    text-decoration: none;
+    color: inherit;
+ }
+
+ img {
+    height: 80%;
+ }
+
+ #home {
+    color: #FFF;
+ }
+
+#home a {
+    margin: 0 10px;
+}
+
+#home h4, #home p {
+    padding: 5px;
+}
+
+#section0 {
+    background-image: url("./photos/amy-bg.jpg"); 
+    background-position: right top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*@media only screen and (orientation: portrait){
+    #section0 {
+        background-position: center center;
+        background-image:url('./photos/amy3.jpg');
+    }
+}*/
+
+    </style>
+
+<div id='header' name='header'>
+    <h3><a href='#home'>Amy Stringer</a></h3>
+<!--     <a href='#gallery'><h5>Photos</h5></a>
+    <a href='#resume'><h5>Resume</h5></a>
+    <a href='#reel'><h5>Reel</h5></a>
+    <a href='#news'><h5>News</h5></a>
+    <a href='#social'><h5>Connect</h5></a> -->
+</div>
+
+
+    <div id="fullpage">
+        <div class="section text-center" id='section0'>
+            <div class='container text-center' id='home'>
+            <h1>Amy Stringer</h1><br>
+            <h4 style="font-family: 'Montserrat', sans-serif;"><em>New York-based actor and human</em></h4>
+            <p><a href='#gallery'>Gallery</a> | <a href='#section2'>Bio</a> | <a href='#reel'>Reel</a> | <a href='#news'>News</a> | <a href='#social'>Contact</a></p>
+        </div>
+        </div>
+
+        <div class="section" id="gallery">
+            Photos
+            <div class="slide"><img src='./photos/amy1.jpg' class='center-block'></div>
+            <div class="slide"><img src='./photos/amy2.jpg' class='center-block'></div>
+            <div class="slide"><img src='./photos/amy3.jpg' class='center-block'></div>
+            <div class="slide"><img src='./photos/amy4.jpg' class='center-block'></div>
+            <div class="slide"><img src='./photos/amy5.jpg' class='center-block'></div>
+        </div>
+
+        <div class="section" id='section2'>
+            <div class='container text-center' id='resume'>
+                <p>Hello, internet friends. My name is Amy. I’m a Bay Area-bred, New York-based actor and human.
+                I originally moved to New York to attend Barnard College, where I graduated magna cum laude with a degree in English and Theatre. As part of my senior thesis I managed to force my way into Amy Morton’s dressing room and interview her about playing Martha in Who’s Afraid of Virginia Woolf on Broadway.</p>
+                <p>Since graduation I’ve performed at various off- and off-off-Broadway theaters in the city, including The Connelly Theater, Robert Moss Theater, and Theater for the New City. You can also see me starring in an episode of Millennials of New York – an Elite Daily-produced web series parodying Humans of New York.</p>
+                <p>Most recently I completed The Studio / New York’s Nine Month Conservatory program, where I studied with some of the best teachers I could have ever hoped to meet, including Jayd McCarty, Lucas Caleb Rooney, Fay Simpson, Sita Mani, and Ilse Pfeifer. I’m now re-entering the acting world with a straighter spine, a stronger voice, and a humble approach to the stories that I am excited to share.</p>
+                <p>In my spare time I enjoy taking naps in the city’s various parks, learning new flying trapeze tricks, or daydreaming about what it would be like to live by myself and have a cat.</p>
+               <h2>
+                    <a href='./resume/AmyStringerTheaterResume-1.pdf' target='_blank'>View Resume</a> | 
+                    <a href='./resume/AmyStringerHeadshotSmall.png' target='_blank' download>
+                    Download Headshot</a>
+                </h2>
+           </div>
+        </div>
+        <div class="section" id='reel'><iframe src="https://player.vimeo.com/video/217711944" width="80%" height="80%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class='center-block'></iframe></div>
+        <div class="section" id='news'>
+            <div class='container text-center'>
+                News
+            </div>
+        </div>
+        <div class='section' id='social'>
+            <div class='container text-center'>
+                Connect
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+        sectionsColor: ['#363636', '#E0FBFC', '#C2DFE3', '#9DB4C0', '#253237', '#C2DFE3'],
+        // scrollOverflow: true,
+        css3: true,
+    });
+});
+
+
+
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
+
+</script>
+</html>
