@@ -7,4 +7,4 @@ def show_homepage():
     return render_template('amy.html')
 
 if __name__ == '__main__':
-    app.run(port=5004)
+    app.run(port=5000)
